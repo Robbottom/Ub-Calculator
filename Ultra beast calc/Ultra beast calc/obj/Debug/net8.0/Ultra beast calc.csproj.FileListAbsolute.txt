@@ -1,0 +1,14 @@
+C:\Users\Mrmog\source\repos\Ultra beast calc\Ultra beast calc\bin\Debug\net8.0\Ultra beast calc.exe
+C:\Users\Mrmog\source\repos\Ultra beast calc\Ultra beast calc\bin\Debug\net8.0\Ultra beast calc.deps.json
+C:\Users\Mrmog\source\repos\Ultra beast calc\Ultra beast calc\bin\Debug\net8.0\Ultra beast calc.runtimeconfig.json
+C:\Users\Mrmog\source\repos\Ultra beast calc\Ultra beast calc\bin\Debug\net8.0\Ultra beast calc.dll
+C:\Users\Mrmog\source\repos\Ultra beast calc\Ultra beast calc\bin\Debug\net8.0\Ultra beast calc.pdb
+C:\Users\Mrmog\source\repos\Ultra beast calc\Ultra beast calc\obj\Debug\net8.0\Ultra beast calc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mrmog\source\repos\Ultra beast calc\Ultra beast calc\obj\Debug\net8.0\Ultra beast calc.AssemblyInfoInputs.cache
+C:\Users\Mrmog\source\repos\Ultra beast calc\Ultra beast calc\obj\Debug\net8.0\Ultra beast calc.AssemblyInfo.cs
+C:\Users\Mrmog\source\repos\Ultra beast calc\Ultra beast calc\obj\Debug\net8.0\Ultra beast calc.csproj.CoreCompileInputs.cache
+C:\Users\Mrmog\source\repos\Ultra beast calc\Ultra beast calc\obj\Debug\net8.0\Ultra beast calc.dll
+C:\Users\Mrmog\source\repos\Ultra beast calc\Ultra beast calc\obj\Debug\net8.0\refint\Ultra beast calc.dll
+C:\Users\Mrmog\source\repos\Ultra beast calc\Ultra beast calc\obj\Debug\net8.0\Ultra beast calc.pdb
+C:\Users\Mrmog\source\repos\Ultra beast calc\Ultra beast calc\obj\Debug\net8.0\Ultra beast calc.genruntimeconfig.cache
+C:\Users\Mrmog\source\repos\Ultra beast calc\Ultra beast calc\obj\Debug\net8.0\ref\Ultra beast calc.dll
