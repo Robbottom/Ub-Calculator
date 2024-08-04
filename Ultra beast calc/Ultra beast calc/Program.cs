@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Drawing;
 using System.Numerics;
+using System.Reflection.Metadata;
 using System.Runtime.Intrinsics.X86;
 using System.Xml;
 
@@ -21,7 +22,7 @@ class Program
             int SPDEF = GetStat("SPDEF");
             int SPE = GetStat("SPE");
         Output.OutputStats(HP, ATK, DEF, SPATK, SPDEF, SPE);
-
+        Export.SaveStatsToFile(HP, ATK, DEF, SPATK, SPDEF, SPE);
         Console.WriteLine("Press Enter to exit...");
         Console.ReadLine();
     }
@@ -80,20 +81,15 @@ class Output
         WriteAllStats(roundedHP, roundedATK, roundedDEF, roundedSPATK, roundedSPDEF, roundedSPE);
     }
 
-private static void WriteAllStats(int roundedHP, int roundedATK, int roundedDEF, int roundedSPATK, int roundedSPDEF, int roundedSPE)
-{
-    Console.WriteLine($"Converted HP: {roundedHP}");
-    Console.WriteLine($"Converted ATK: {roundedATK}");
-    Console.WriteLine($"Converted DEF: {roundedDEF}");
-    Console.WriteLine($"Converted SPATK: {roundedSPATK}");
-    Console.WriteLine($"Converted SPDEF: {roundedSPDEF}");
-    Console.WriteLine($"Converted SPE: {roundedSPE}");
+    private static void WriteAllStats(int roundedHP, int roundedATK, int roundedDEF, int roundedSPATK, int roundedSPDEF, int roundedSPE)
+    {
+        Console.WriteLine($"Converted HP: {roundedHP}");
+        Console.WriteLine($"Converted ATK: {roundedATK}");
+        Console.WriteLine($"Converted DEF: {roundedDEF}");
+        Console.WriteLine($"Converted SPATK: {roundedSPATK}");
+        Console.WriteLine($"Converted SPDEF: {roundedSPDEF}");
+        Console.WriteLine($"Converted SPE: {roundedSPE}");
+    }
 }
-}
-
-
-
-
-//TODO optional write output to a text file
 
 

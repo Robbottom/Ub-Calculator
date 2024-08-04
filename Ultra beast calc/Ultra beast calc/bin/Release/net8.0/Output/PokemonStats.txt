@@ -1,0 +1,6 @@
+Converted HP: 108
+Converted ATK: 100
+Converted DEF: 121
+Converted SPATK: 81
+Converted SPDEF: 95
+Converted SPE: 95
