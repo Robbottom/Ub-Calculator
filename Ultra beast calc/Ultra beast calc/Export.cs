@@ -5,14 +5,23 @@ public class Export
 {
     public static void SaveStatsToFile(int roundedHP, int roundedATK, int roundedDEF, int roundedSPATK, int roundedSPDEF, int roundedSPE)
     {
-        // Define a relative file path
         string directoryPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Output");
-        string filePath = Path.Combine(directoryPath, "PokemonStats.txt");
+        string fileName = "PokemonStats.txt";
+        string filePath = Path.Combine(directoryPath, fileName);
 
         // Ensure the directory exists
         if (!Directory.Exists(directoryPath))
         {
             Directory.CreateDirectory(directoryPath);
+        }
+
+        // Generate a unique file name if the file already exists
+        int fileIndex = 1;
+        while (File.Exists(filePath))
+        {
+            fileName = $"PokemonStats{fileIndex}.txt";
+            filePath = Path.Combine(directoryPath, fileName);
+            fileIndex++;
         }
 
         // Write stats to file

@@ -21,8 +21,14 @@ class Program
             int SPATK = GetStat("SPATK");
             int SPDEF = GetStat("SPDEF");
             int SPE = GetStat("SPE");
+        int roundedHP = PrimeNumbers.RoundUpToPrime(HP);
+        int roundedATK = PrimeNumbers.RoundUpToPrime(ATK);
+        int roundedDEF = PrimeNumbers.RoundUpToPrime(DEF);
+        int roundedSPATK = PrimeNumbers.RoundUpToPrime(SPATK);
+        int roundedSPDEF = PrimeNumbers.RoundUpToPrime(SPDEF);
+        int roundedSPE = PrimeNumbers.RoundUpToPrime(SPE);
         Output.OutputStats(HP, ATK, DEF, SPATK, SPDEF, SPE);
-        Export.SaveStatsToFile(HP, ATK, DEF, SPATK, SPDEF, SPE);
+        Export.SaveStatsToFile( roundedHP, roundedATK, roundedDEF, roundedSPATK, roundedSPDEF, roundedSPE); //Export rounded numbers next
         Console.WriteLine("Press Enter to exit...");
         Console.ReadLine();
     }
